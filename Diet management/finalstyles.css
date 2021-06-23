@@ -1,0 +1,164 @@
+header {
+    width: 1265px;
+    height: 100px;
+    background-color: rgba(255,218,185);
+    box-shadow: 10px 8px 5px #888888;
+}
+body
+{
+   min-height: 100%
+   padding: 0;
+	margin: 5%;
+	position: relative;
+	background-image: url(background2.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #CC0000;
+	font-weight: normal;
+	background-attachment: scroll;   
+}
+
+
+article{ 
+        width:40%; 
+        margin:auto ; 
+        color:#444;}
+#contactform {
+	width: 400px;
+	padding: 15px;
+	overflow:auto;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 2px 2px 2px #cccccc;
+	-webkit-box-shadow: 2px 2px 2px #cccccc;
+	box-shadow: 2px 2px 2px #cccccc;
+	background-color: #F7F7F7;
+	}
+	.button{
+	font-weight: bold;
+	line-height: 1;
+	cursor:pointer;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 -1px 1px #64799e;
+	border: 1px solid #006600;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	/* Box shadow */
+height: 30px;
+	width: 80px;
+	margin-top: 10px;
+	margin-right: 55px;
+	margin-bottom: 6px;
+	margin-left: 0;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	background-color: #009900;
+	background-position: 0% 0%;
+	}
+	
+	.button:hover {
+	cursor: pointer;
+	background-color: #006600;
+	}
+
+box
+{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+a:link {
+    color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+	color: #00CC00;
+}
+
+/* mouse over link */
+a:hover {
+	color: #FF0000;
+}
+
+/* selected link */
+a:active {
+
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container1 {
+	border-radius: 5px;
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	border: thin solid #FF0000;
+	font-weight: bold;
+	color: black;
+	
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+}
+.border {
+	border: 1px solid #FFFFFF;
+}
